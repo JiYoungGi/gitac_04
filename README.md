@@ -48,7 +48,7 @@ https://github.com/edu-ministori/gitac_04
       - Android : Java -> Kotlin
       - IOS : Objective C -> Swift
   - Front End 개발 / Publishing
-    - Publishing 단어는 없다.
+    - Publishing란 단어는 없다. Front End = Publishing
 
 - Back End
   - 사용자가 제어하지 못하는 영역
