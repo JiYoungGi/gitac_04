@@ -82,3 +82,7 @@ WYSIWYG(What you see Is What you Get : html은 WYSIWYG 지원이 가능합니다
 텍스트
 
 - URL(Uniform Resource Locator) : 파일위치식별자
+
+'''
+저장소 사용
+'''
