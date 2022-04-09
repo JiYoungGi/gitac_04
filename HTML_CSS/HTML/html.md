@@ -81,8 +81,20 @@ WYSIWYG(What you see Is What you Get : html은 WYSIWYG 지원이 가능합니다
 
 텍스트
 
-- URL(Uniform Resource Locator) : 파일위치식별자
+- URL(Uniform Resource Locator) : 파일위치식별자 - 상세주소
 
-'''
-저장소 사용
-'''
+- 인터넷 주소체계
+  -IP(internet protocol) address : 인터넷에서 사용하는 주소
+  -Domain name : IP 주소를 영어단어로 표현 -서버종류 : www -회사이름 : naver, daum -기관성격 : com, net (3자리) / co, go, ac (4자리) -국가(4자리): kr, uk, ca, fr ...
+
+```
+0~255까지 숫자 4개로 구성
+Ex) 192.168.0.1
+
+- 인터넷 접속 프로세스 : 주소표시줄에 Domain Name 입력 => IP주소로 변환 => 접속
+
+- url 체계
+IP/Domain 주소/상세경로/파일정보
+Ex) https://www.w3schools.com/html/default.asp
+
+```
