@@ -78,6 +78,22 @@ WYSIWYG(What you see Is What you Get : html은 WYSIWYG 지원이 가능합니다
 
 - a(anchor) : 하이퍼링크 연결 태그
 - href(Hypertext Reference) : 목적지 정보 제공 속성(atrribute)
+- bookmark -연결된 페이지로 이동하지 않고 같은 페이지 내에서 위아래 이동
+
+  '''
+
+  - page link
+    <a href="url">텍스트</a>
+
+  -bookmark
+
+  - link
+    <a href="#target">목적지</a>
+
+  - target
+  <h2 id="target">단락 제목</h2>
+
+  '''
 
 텍스트
 
