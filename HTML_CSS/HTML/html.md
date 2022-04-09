@@ -114,3 +114,52 @@ IP/Domain 주소/상세경로/파일정보
 Ex) https://www.w3schools.com/html/default.asp
 
 ```
+
+### HTML table
+
+'''
+요즘은 HTLM tables generator을 씀
+
+<table> : 테이블 작성
+  <tr> : table row - 행
+    <th></th> : table header - 열제목
+  </tr>
+  <tr>
+    <td></td> : table data - 데이터
+  </tr>
+</table>
+'''
+
+### HTML List
+
+-ul(Unordered List) : 순서없는 목록 -기호로 표시
+-ol(Ordered List) : 순서있는 목록 -숫자로 표시 (알파벳, 한글)
+-li(List Item) : 목록 아이템 -중첩목록(Nested List) -목록안에 작은 목록이 포함되는 경우
+
+'''
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ul>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+</ol>
+'''
+
+- Description List : 설명목록
+  -dl(Description List)
+  -dt(Description title)
+  -dd(Description Data)
+
+'''
+
+<dl>
+<dt>목록 주제</dt>
+<dd>목록 설명</dd>
+</dl>
+'''
