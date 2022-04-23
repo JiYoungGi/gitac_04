@@ -5,6 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+      /* local() 함수 : 사용자 PC에 설치된 폰트 검색*/
+      /* url() 함수 : 웹 폰트 파일 불러오기*/
+      /* format() 함수 : 브라우저에서 지원하는 파일만 다운로드 */
+      @font-face{
+        font-family: "NB-regular"
+        src : local(NanumBarun), 
+              url(/resources/nbg_r.woff) format("woff");
+        font-style : normal;
+        font-weight : normal;  
+      }
+      @font-face{
+        font-family: "NB-bold"
+        src : local(NanumBarun), 
+              url(/resources/nbg_b.woff) format("woff");
+        font-style : normal;
+        font-weight : normal;  
+      }
+      h1{
+        color: blue;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      i{
+        font-style:normal;
+        font-family: 'NB-regular', sans-serif;
+        text-align: center
+        text-decoration: line-through;
+      }
+      p.align-center{
+        text-align: center
+        line-height:1.8;
+
+      }
+      a{
+        text-decoration: none;
+      }
+      .bold{
+        font-family: 'roboto', sans-serif;
+        font-weight : 700;
+      }
+      a:link{
+        color: chartreuse;
+      }
+      a:visited{
+        color: slateblue;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      a:active{
+        color: red;
+      }
+      .list{
+        color: yellow;
+      }
+      body{
+        font-family: "NB-regular", sans-serif
+      }
+      dl{
+        font-size: 20px;
+        font-size: 30px;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML5</h1>
@@ -12,7 +79,7 @@
     <!-- 단락태그 외에 추가로 사용할 수 있는 태그를 사용 -->
     <!-- ㅁㅇㅁㅇㅁㄴ -->
     <i>위키백과, 우리 모두의 백과사전.</i>
-    <p>
+    <p class="align-center">
       HTML5는
       <a href="https://ko.wikipedia.org/wiki/HTML" target="_blank">HTML</a>의
       완전한 5번째 버전으로 월드 와이드 웹 (World Wide Web)의 핵심 마크업
@@ -20,16 +87,16 @@
       Group(WHATWG)에서 웹 애플리케이션 1.0이라는 이름으로 세부 명세 작업을
       시작하였다.
     </p>
-    <p>
+    <p class="align-center">
       HTML5는 HTML 4.01, XHTML 1.0, DOM 레벨 2 HTML에 대한 차기 표준 제안이다.
       비디오, 오디오 등 다양한 부가기능과 최신 멀티미디어 콘텐츠를 액티브X 없이
       브라우저에서 쉽게 볼 수 있게 하는 것을 목적으로 한다.
     </p>
-    <p>
+    <p class="align-center">
       <a href="https://ko.wikipedia.org/wiki/W3C" target="_blank">W3C</a>는
       2014년 10월 28일 HTML5 표준안을 확정했다고 발표했다.
     </p>
-    <p>
+    <p class="align-center">
       이후 2016년 11월 1일 HTML5의 마이너 업데이트 버전인 HTML5.1 표준안을 확정,
       2017년 12월 14일 HTML5.2 표준안을 확정했다. HTML5.3 표준안은 현재 작업
       초안 단계로 진행 중이다.
@@ -97,15 +164,15 @@
     <ul>
       <!-- 입력 순서 : 밖(큰범위) => 안(작은범위) -->
       <li>요소추가</li>
-      <ul>
+      <ul class="list">
         <li>구조적인 요소 - 구역을 나누는 블록 요소인 div 요소를 대신한다.</li>
         <ul>
-          <li>header</li>
-          <li>nav</li>
-          <li>article</li>
-          <li>section</li>
-          <li>aside</li>
-          <li>footer</li>
+          <li class="bold">header</li>
+          <li class="bold">nav</li>
+          <li class="bold">article</li>
+          <li class="bold">section</li>
+          <li class="bold">aside</li>
+          <li class="bold">footer</li>
         </ul>
         <li>
           멀티미디어 요소 - 플러그인 없이 멀티미디어를 재생할 수 있게 한다.
